@@ -1,4 +1,5 @@
 Create ~/.zshrc:
+
     # run my ZSH configuration from my git-stored config
     source $HOME/.zsh/zshrc
     # run local shell configuration
