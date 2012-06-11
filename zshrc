@@ -36,6 +36,6 @@ unsetopt correct_all
 export EDITOR="vim"
 export GIT_EDITOR="${EDITOR}"
 export SVN_EDITOR="${EDITOR}"
-export VISUAL="gvim"
+export VISUAL="mvim"
 export LESSEDIT='vim ?lm+%lm. %f'
 export TEXEDIT='vim +%d %s'
