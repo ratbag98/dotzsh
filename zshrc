@@ -26,7 +26,7 @@ ZSH_THEME="blinks"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx bundler gem brew rvm rbates vim-interaction)
+plugins=(git osx bundler gem brew rvm rbates vim-interaction vagrant)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt nomatch
