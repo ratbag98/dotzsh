@@ -7,7 +7,7 @@ SOLARIZED_THEME="dark"
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="minimal"
+ZSH_THEME="agnoster"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -26,8 +26,9 @@ ZSH_THEME="minimal"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git git-flow osx gem brew rvm rbates vim-interaction vagrant)
+plugins=(docker git git-flow osx gem brew rvm rbates vim-interaction vagrant z)
 
+export DEFAULT_USER=robr
 source $ZSH/oh-my-zsh.sh
 unsetopt nomatch
 unsetopt correct_all
@@ -36,7 +37,8 @@ setopt nullglob
 export EDITOR="vim"
 export GIT_EDITOR="${EDITOR}"
 export SVN_EDITOR="${EDITOR}"
-export VISUAL="mvim"
+export VISUAL="vim"
 export LESSEDIT='vim ?lm+%lm. %f'
 export TEXEDIT='vim +%d %s'
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+
