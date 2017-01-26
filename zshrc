@@ -26,7 +26,7 @@ ZSH_THEME="agnoster"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(docker git git-flow osx gem brew rvm rbates vim-interaction vagrant z)
+plugins=(docker git git-flow osx gem brew rvm rbates vim-interaction vagrant z mix elixir)
 
 export DEFAULT_USER=robr
 source $ZSH/oh-my-zsh.sh
